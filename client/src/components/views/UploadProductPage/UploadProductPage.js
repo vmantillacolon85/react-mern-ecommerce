@@ -36,7 +36,7 @@ function UploadProductPage() {
     }
 
     const onPriceChange = (event) => {
-        setPriceValue(event.currentTarget.value)
+        setPriceValue(event.currentTarget.value) 
     }
 
     const onContinentsSelectChange = (event) => {
@@ -44,6 +44,8 @@ function UploadProductPage() {
     }
 
     const updateImages = (newImages) => {
+    
+        console.log(new Images)
         setImages(newImages)
     }
 
